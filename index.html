@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Recommendation System</h1>
+    <input type="text" id="searchBox" placeholder="Search movies...">
+    <select id="sortSelect">
+    <option value="default">Sort Movies</option>
+    <option value="rating">Rating (High to Low)</option>
+    <option value="name">Name (A-Z)</option>
+</select>
+    <div id="filters">
+    <button onclick="filterMovies('All')">All</button>
+    <button onclick="filterMovies('Action')">Action</button>
+    <button onclick="filterMovies('Sci-Fi')">Sci-Fi</button>
+    <button onclick="filterMovies('Romance')">Romance</button>
+    <button onclick="filterMovies('thriller')">Thriller</button>
+    <button onclick="filterMovies('Animation')">Animation</button>
+    <button onclick="filterMovies('Drama')">Drama</button>
+    <button onclick="showRecommended()">Recommended</button>
+    <button id="favoritesBtn" onclick="showFavorites()">❤️favorites(<span id="favCount">0</span>)</button>
+    <button id="themeBtn">🌙 Dark Mode</button>
+    <button onclick="clearFavorites()">🫙clear Favorites</button>
+</div>
+    <div id="movieContainer"></div>
+    <div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span id="closeBtn">&times;</span>
+        <img id="modalImage" src="" alt="Movie Poster">
+        <h2 id="modalTitle"></h2>
+        <p id="modalGenre"></p>
+        <p id="modalRating"></p>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

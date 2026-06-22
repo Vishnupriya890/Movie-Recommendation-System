@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "image":"https://image.tmdb.org/t/p/original/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "description":"A thief enters people's dreams to steal secrets."
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "rating": 9.0,
+    "image":"https://tse2.mm.bing.net/th/id/OIP.uiaj_IMaC7h3NoieAhcmVwHaLG?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description":"A team of explorer travels through a wormhole in space to save humanity."
+  },
+  {
+    "title": "Titanic",
+    "genre": "Romance",
+    "rating": 7.9,
+    "image":"https://i.etsystatic.com/40328639/r/il/65f50c/4560619894/il_fullxfull.4560619894_7wmc.jpg",
+    "description":"A young aristocrat and a poor artist fall in love aboard the RMS Titanic,but their romance is tested by the ship's tragic fate."
+  },
+  {
+    "title":"Rakshasudu",
+    "genre":"thriller",
+    "rating":7.9,
+    "image":"https://www.wishesh.com/images/reviews/Rakshasudu-Movie-Review.jpg",
+    "description":"Rakshasudu (2019) is a Telugu psychological thriller where a newly recruited sub-inspector is drawn into the hunt for a cunning serial killer targeting teen girls. As the investigation unravels, it becomes a tense, high-stakes game of wits. Praised for its gripping screenplay, tight pacing, and chilling background score by Ghibran, the film delivers edge-of-the-seat suspense, making it a strong watch for thriller fans."  
+  }
+  
+]
